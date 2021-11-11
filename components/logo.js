@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import Image from 'next/image';
 import { Text, useColorModeValue } from '@chakra-ui/react';
 import styled from '@emotion/styled';
@@ -14,12 +14,11 @@ padding: 10px;
 
 &:hover img {
     transform: rotate(20deg);
-
 }
 `
 
 const Logo = () => {
-    const foorPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    const foorPrintImg = `/images/logo${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/">
