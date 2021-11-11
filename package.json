@@ -1,0 +1,38 @@
+{
+  "name": "crendo11.github.io",
+  "version": "1.0.0",
+  "description": "Cristian Rendon web page",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crendo11/crendo11.github.io.git"
+  },
+  "keywords": [],
+  "author": "Cristian Rendon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crendo11/crendo11.github.io/issues"
+  },
+  "homepage": "https://github.com/crendo11/crendo11.github.io#readme",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.17",
+    "@chakra-ui/react": "^1.6.12",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^5.2.1",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-next": "^12.0.3",
+    "prettier": "^2.4.1"
+  }
+}

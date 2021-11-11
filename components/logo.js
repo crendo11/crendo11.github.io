@@ -1,0 +1,41 @@
+import Link from 'next/Link';
+import Image from 'next/image';
+import { Text, useColorModeValue } from '@chakra-ui/react';
+import styled from '@emotion/styled';
+
+const LogoBox = styled.span`
+font-wigth: bold;
+font-size: 18px;
+display: inline-flex;
+align-items: center;
+heght: 30px;
+line-height: 10px;
+padding: 10px;
+
+&:hover img {
+    transform: rotate(20deg);
+
+}
+`
+
+const Logo = () => {
+    const foorPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+
+    return (
+        <Link href="/">
+            <a>
+                <LogoBox>
+                    <Image src={foorPrintImg} width={20} height={20} alt="logo"/>
+                    <Text
+                    color={useColorModeValue('gray.800', 'whiteAlpha.900')
+                    }fontWeight="bold"
+                    ml={3}>
+                        Cristian Rendon
+                    </Text>
+                </LogoBox>
+            </a>
+        </Link>
+    )
+}
+
+export default Logo;
