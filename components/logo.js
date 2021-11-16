@@ -9,7 +9,7 @@ font-size: 18px;
 display: inline-flex;
 align-items: center;
 heght: 30px;
-line-height: 10px;
+line-height: 20px;
 padding: 10px;
 
 &:hover img {
@@ -26,8 +26,9 @@ const Logo = () => {
                 <LogoBox>
                     <Image src={foorPrintImg} width={20} height={20} alt="logo"/>
                     <Text
-                    color={useColorModeValue('gray.800', 'whiteAlpha.900')
-                    }fontWeight="bold"
+                    color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+                    fontFamily='M PLUS Rounded 1c'
+                    fontWeight="bold"
                     ml={3}>
                         Cristian Rendon
                     </Text>
