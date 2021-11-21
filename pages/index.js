@@ -101,6 +101,15 @@ const Page = () => {
                     </Link>.
                 </BioSection>
             </Section>
+
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    I love
+                </Heading>
+                <Paragraph>
+                    Science, Games, Technology, Movies and Series,
+                </Paragraph>
+            </Section>
         </Container>
     );
 }
