@@ -1,8 +1,8 @@
 import NextLink from 'next/link';
 import { Container, Box, Heading, Image, Button, Link, useColorModeValue } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import Section from '../components/Section';
-import Paragraph from '../components/Paragraph';
+import Section from '../components/section';
+import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
 
 const Page = () => {
