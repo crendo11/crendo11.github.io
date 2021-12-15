@@ -44,20 +44,14 @@ const Page = () => {
                         Universidad EAFIT, Colombia. I have been working in the field of Computer Graphics
                         with a strong background in programming. Currently, I am pursuing a MSc degree in
                         Engineering in the field of Computational Geometry and Computer Graphics for cloud
-                        technologies.
-                        I have produced high-quality research papers concerning wing profile evolution and
-                        skin friction measurements, partnering with top tier universities such as UIS (Colombia)
-                        and University of Melbourne (Australia).
-
-                        Currently, I hold an engineer position at {' '}
+                        technologies, and also hold an software engineer position at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
-                        </Link>, a top colombian Start-Up focused on the research and development of high-quality
-                        cloud technology solutions in industry 4.0.
-
-                        <NextLink href="/about">
-                            <Link>Works</Link>
-                        </NextLink>.
+                        </Link>, a top Colombian Start-Up focused on the research and development of high-quality
+                        cloud technology solutions for industry 4.0. <br/>
+                        I have produced high-quality research papers concerning wing profile evolution,
+                        skin friction measurements, and analytic forms fitting partnering with top tier 
+                        universities such as UIS (Colombia) and University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/about">
