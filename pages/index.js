@@ -37,18 +37,24 @@ const Page = () => {
 
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        Works
+                        About me
                     </Heading>
                     <Paragraph>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi orci,
-                        tincidunt sed bibendum sed, varius ut mi. Praesent sed tempor nibh. Nunc faucibus
-                        augue quis cursus pellentesque. Orci varius natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Ut mattis nibh et tincidunt vehicula. Morbi iaculis
-                        risus non dignissim malesuada. Nam eu luctus enim, tempor vestibulum mauris. Nunc
-                        egestas, urna a iaculis posuere, est odio bibendum diam, eu blandit nisi lorem ut lectus.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et purus ut velit gravida convallis
-                        at eu velit. Proin ante nisi, finibus quis ligula in, efficitur rutrum neque. This is an example
-                        of a link in the paragraph{' '}
+                        I am a passionate Mechanical Engineer with a minor in Computational Mechanics from
+                        Universidad EAFIT, Colombia. I have been working in the field of Computer Graphics
+                        with a strong background in programming. Currently, I am pursuing a MSc degree in
+                        Engineering in the field of Computational Geometry and Computer Graphics for cloud
+                        technologies.
+                        I have produced high-quality research papers concerning wing profile evolution and
+                        skin friction measurements, partnering with top tier universities such as UIS (Colombia)
+                        and University of Melbourne (Australia).
+
+                        Currently, I hold an engineer position at {' '}
+                        <Link href="https://cohesivemanufacturing.com" target="_blank">
+                            Manufactura Cohesiva S.A.S
+                        </Link>, a top colombian Start-Up focused on the research and development of high-quality
+                        cloud technology solutions in industry 4.0.
+
                         <NextLink href="/about">
                             <Link>Works</Link>
                         </NextLink>.
