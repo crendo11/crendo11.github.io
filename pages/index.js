@@ -48,9 +48,9 @@ const Page = () => {
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
                         </Link>, a top Colombian Start-Up focused on the research and development of high-quality
-                        cloud technology solutions for industry 4.0. <br/>
+                        cloud technology solutions for industry 4.0. <br />
                         I have produced high-quality research papers concerning wing profile evolution,
-                        skin friction measurements, and analytic forms fitting partnering with top tier 
+                        skin friction measurements, and analytic forms fitting partnering with top tier
                         universities such as UIS (Colombia) and University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
@@ -71,19 +71,19 @@ const Page = () => {
                         <BioYear>1997</BioYear>
                         Born in Medellin, Colombia.
                     </BioSection>
+                    {/* Internship, MSc */}
+                    <BioSection>
+                        <BioYear>
+                            2019-2019
+                        </BioYear>
+                        Research intern at the Walter Bassett Aerodynamics Laboratory - The University of Melbourne.
+                    </BioSection>
                     {/* Graduation date */}
                     <BioSection>
                         <BioYear>
-                            2020
+                            2015-2020
                         </BioYear>
                         Completed my Bachelor&apos;s Degree in Mechanical Engineering at Universidad EAFIT.
-                    </BioSection>
-                    {/* Current studies, MSc */}
-                    <BioSection>
-                        <BioYear>
-                            2019
-                        </BioYear>
-                        Research intern at the Walter Bassett Aerodynamics Laboratory - The University of Melbourne.
                     </BioSection>
                     {/* Current studies, MSc */}
                     <BioSection>
@@ -92,12 +92,22 @@ const Page = () => {
                         </BioYear>
                         Master&apos;s of Science in Engineering at Universidad EAFIT.
                     </BioSection>
+                    {/* Graduation date */}
+                    <BioSection>
+                        <BioYear>
+                            2017-present
+                        </BioYear>
+                        Researach assistant at {' '}
+                        <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
+                            CAD CAM CAE Laboratory
+                        </Link>, Universidad EAFIT.
+                    </BioSection>
                     {/* Current studies, MSc */}
                     <BioSection>
                         <BioYear>
                             2020-present
                         </BioYear>
-                        Works at {' '}
+                        Software Engineer at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
                         </Link>.
