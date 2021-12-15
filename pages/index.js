@@ -1,10 +1,18 @@
 import NextLink from 'next/link';
-import { Container, Box, Heading, Image, Button, Link, useColorModeValue } from '@chakra-ui/react';
+import { Container, Box, Heading, Image, Button, Link, List, ListItem, SimpleGrid, useColorModeValue, Icon } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
+import { GridItem } from '../components/grid-item';
+import {
+    IoLogoInstagram,
+    IoLogoLinkedin,
+    IoLogoGithub,
+    IoMail,
+    IoPhonePortrait
+} from 'react-icons/io5';
 
 const Page = () => {
     return (
@@ -121,6 +129,47 @@ const Page = () => {
                     <Paragraph>
                         Science, Games, Technology, Movies and Series,
                     </Paragraph>
+                </Section>
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Find me on
+                    </Heading>
+                    <Link href="https://www.linkedin.com/in/cristian-rend%C3%B3n-4b474716b/" target="_blank">
+                        <Button variant="ghost" colorScheme="teal">
+                            <Icon fontSize={24} as={IoLogoLinkedin} />
+                        </Button>
+                    </Link>
+                    <Link href="https://github.com/crendo11/" target="_blank">
+                        <Button variant="ghost" colorScheme="teal">
+                            <Icon fontSize={24} as={IoLogoGithub} />
+                        </Button>
+                    </Link>
+                    <Link href="https://www.instagram.com/cris2125_/" target="_blank">
+                        <Button variant="ghost" colorScheme="teal">
+                            <Icon fontSize={24} as={IoLogoInstagram} />
+                        </Button>
+                    </Link>
+                </Section>
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Contact me
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Button variant="ghost" colorScheme="teal" 
+                                onClick={() => {navigator.clipboard.writeText('crendoc11@gmail.com')}}
+                                leftIcon={<Icon fontSize={24} as={IoMail} />}>
+                                    crendoc11@gmail.com
+                            </Button>
+                        </ListItem>
+                        <ListItem>
+                            <Button variant="ghost" colorScheme="teal" 
+                                onClick={() => {navigator.clipboard.writeText('+573208719484')}}
+                                leftIcon={<Icon fontSize={24} as={IoPhonePortrait} />}>
+                                    +57 320 8719484
+                            </Button>
+                        </ListItem>
+                    </List>
                 </Section>
             </Container>
         </Layout>
