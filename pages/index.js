@@ -18,7 +18,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a Software Engineer based in Colombia
+                    Hello, I&apos;m a Mechanical Engineer based in Colombia
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
@@ -51,7 +51,10 @@ const Page = () => {
                         Universidad EAFIT, Colombia. I have been working in the field of Computer Graphics
                         with a strong background in programming. Currently, I am pursuing a MSc degree in
                         Engineering in the field of Computational Geometry and Computer Graphics for cloud
-                        technologies, and also hold an software engineer position at {' '}
+                        technologies at the {' '} 
+                        <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
+                            CAD CAM CAE Laboratory
+                        </Link>. Also, hold an software engineer position at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
                         </Link>, a top Colombian Start-Up focused on the research and development of high-quality
@@ -61,7 +64,7 @@ const Page = () => {
                         universities such as UIS (Colombia) and University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/about">
+                        <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                                 My Portafolio
                             </Button>

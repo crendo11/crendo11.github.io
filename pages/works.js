@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-import thumbnailTestWork from '../public/images/cristian.jpg'
+import thumbnailTestWork from '../public/images/works/Analytic_Form_Fitting/cylinderFitting_work_image.png'
 
 const Works = () => {
     return (
@@ -14,8 +14,8 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="testWork" title="Test Work" thumbnail={thumbnailTestWork}>
-                            A test work item fot page
+                        <WorkGridItem id="analyticFormFitting" title="Analytic Form Fitting in Poor Triangular Meshes" thumbnail={thumbnailTestWork}>
+                            A novel algorithm for rapid segmentation of 3D meshes, suited to the limitations of web applications
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
