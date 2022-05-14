@@ -12,7 +12,7 @@ import thumbnailCloth from '../public/images/works/Clothing/manequin_scalar.png'
 const Works = () => {
     return (
         <Layout>
-            <Container>
+            <Container maxW='container.sm'>
                 <Heading as="h3" fontSize={20} mb={4}>
                     Works
                 </Heading>
