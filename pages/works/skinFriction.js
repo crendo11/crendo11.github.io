@@ -17,7 +17,7 @@ const Work = () => {
                         Walter Bassett aerodynamics laboratory
                     </Link> {' '}
                     where I was under the supervision of Prof. Ivan Marusic and Ph.D. student Jason Ruan in the
-                    project “Active Control of Large-scale Structures in High Reynolds Number Turbulent Boundary Layers".
+                    project &quot;Active Control of Large-scale Structures in High Reynolds Number Turbulent Boundary Layers&quot;.
                 </P>
                 <P>
                     The article reviews three methods implemented at the laboratry to measure the skin friction.

@@ -11,11 +11,11 @@ const Work = () => {
                     Human-cloth Simulation<Badge>Ongoing</Badge>
                 </Title>
                 <P>
-                    I'm currently working on the research and development of a kernel for the computer
+                    I&apos;m currently working on the research and development of a kernel for the computer
                     simulation in real-time of cloth using potential functions.
                 </P>
                 <P>
-                    The research is conducted in the context of my Master's degree at the {' '}
+                    The research is conducted in the context of my Master&apos;s degree at the {' '}
                     <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
                     CAD CAM CAE Laboratory
                     </Link> {' '} in partnership with {' '}
