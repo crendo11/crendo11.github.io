@@ -12,12 +12,26 @@ const Work = () => {
                     Skin-friction Measurements in Turbulent Boundary Layers<Badge>2020</Badge>
                 </Title>
                 <P>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec euismod, nisl eget consectetur sagittis, nisl
+                    The article was produced as a result of my internship at the {' '}
+                    <Link href="https://mechanical.eng.unimelb.edu.au/research/fluid-mechanics/walter-bassett" target="_blank">
+                        Walter Bassett aerodynamics laboratory
+                    </Link> {' '}
+                    where I was under the supervision of Prof. Ivan Marusic and Ph.D. student Jason Ruan in the
+                    project “Active Control of Large-scale Structures in High Reynolds Number Turbulent Boundary Layers".
+                </P>
+                <P>
+                    The article reviews three methods implemented at the laboratry to measure the skin friction.
+                    <ol>
+                        <li> Hot-wire anemometry </li>
+                        <li> Hot-film anemometry </li>
+                        <li> Particle Image Velocimetry (PIV) </li>
+                    </ol>
+                    All experiments were carried out in the High Reynolds Number Boundary Layer Wind Tunnel, signal 
+                    analysis and post-processing were required to compute the results. 
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Publication Website</Meta>
+                        <Meta>Publication PDF</Meta>
                         <Link href="http://www.enggjournals.com/ijet/abstract.html?file=20-12-01-002" target="_blank">
                             International Journal of Engineering and Technology IJET - ENGG Journals <ExternalLinkIcon mx="2px" />
                         </Link>
@@ -28,7 +42,7 @@ const Work = () => {
                         e-ISSN : 0975-4024 p-ISSN : 2319-8613, volume 12, issue 1, Publisher Eng Journals.
                         url= {' '}
                         <Link href='http://www.enggjournals.com/ijet/abstract.html?file=20-12-01-002' target="_blank">
-                        http://www.enggjournals.com/ijet/abstract.html?file=20-12-01-002
+                            http://www.enggjournals.com/ijet/abstract.html?file=20-12-01-002
                         </Link>, {' '}
                         doi= DOI : 10.21817/ijet/2020/v12i1/201201002
                         Published: 29 February  2020
@@ -38,8 +52,6 @@ const Work = () => {
                 <WorkImage src="/images/works/Skin_Friction/hot-wire_setup.png" alt="Hot-wire Setup" />
                 <WorkImage src="/images/works/Skin_Friction/PIV_HW_data.png" alt="PIV and Hot-wire data" />
             </Container>
-
-
         </Layout>
     )
 }

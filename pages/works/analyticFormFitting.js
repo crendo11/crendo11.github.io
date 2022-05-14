@@ -12,34 +12,43 @@ const Work = () => {
                     Analytic Form Fitting in Poor Triangular Meshes<Badge>2021</Badge>
                 </Title>
                 <P>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec euismod, nisl eget consectetur sagittis, nisl
+                    Anovel algorithm for rapid segmentation of 3D triangular meshes, suited
+                    to the limitations of web applications. The algorithm segments and identifies
+                    Cylinders, Spheres, and Cones in triangulated meshes. We implement spatial hashing
+                    and boundary representation for a preprocessing sequence to accelerate the fitting.
+                </P>
+                <P>
+                    The research is conducted in a partnership between the {' '}
+                    <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
+                        CAD CAM CAE Laboratory
+                    </Link> {' '} and <Link href="https://www.cohesivemanufacturing.com/" target="_blank">
+                        Manufactura Cohesiva
+                    </Link> {' '} applying research to the development of new technologies and methods in the industry.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Publication Website</Meta>
+                        <Meta>Publication PDF</Meta>
                         <Link href="https://www.mdpi.com/1999-4893/14/11/304" target="_blank">
                             Algorithms - MDPI<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Citation</Meta>
-                        Cristian Rendon-Cardona, Jorge Correa, Diego A. Acosta, Oscar Ruiz-Salguero 
+                        Cristian Rendon-Cardona, Jorge Correa, Diego A. Acosta, Oscar Ruiz-Salguero
                         Journal Algorithms, MDPI, 2021, 14(11), 304, eISSN 1999-4893,
                         url = {' '}
-                        <Link href='https://www.mdpi.com/1999-4893/14/11/304' target="_blank"> 
-                        https://www.mdpi.com/1999-4893/14/11/304
+                        <Link href='https://www.mdpi.com/1999-4893/14/11/304' target="_blank">
+                            https://www.mdpi.com/1999-4893/14/11/304
                         </Link> {' '}
-                        doi = {' '}  <Link href='https://doi.org/10.3390/a14110304' target="_blank"> 
-                        https://doi.org/10.3390/a14110304
+                        doi = {' '}  <Link href='https://doi.org/10.3390/a14110304' target="_blank">
+                            https://doi.org/10.3390/a14110304
                         </Link> {' '}
                         Published online:  22 Oct 2021
                     </ListItem>
                 </List>
                 <WorkImage src="/images/works/Analytic_Form_Fitting/cylinderFitting_experiment.png" alt="Analytic Form Fitting in Poor Triangular Meshes" />
+                <WorkImage src="/images/works/Analytic_Form_Fitting/ciguenal_cone.png" alt="Fitting of a cone" />
             </Container>
-
-
         </Layout>
     )
 }

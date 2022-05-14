@@ -9,17 +9,18 @@ const Work = () => {
         <Layout title="femSolver">
             <Container>
                 <Title>
-                    FEM Solver for Truss and Porticos<Badge>2017</Badge>
+                    FEM Solver for Trusses and Frames<Badge>2017</Badge>
                 </Title>
                 <P>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec euismod, nisl eget consectetur sagittis, nisl
+                    Project developed under the course IM-0238 Finite Element Method of my undergraduate 
+                    studies at the EAFIT University. The program uses the Finite Element Method to solve 
+                    trusses and frames with known displacements equal to zero.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Github Repository</Meta>
-                        <Link href="https://github.com/crendo11/truss-portico-FEM-solver" target="_blank">
-                            Fem Solver Repository <ExternalLinkIcon mx="2px" />
+                        <Link href="https://github.com/crendo11/truss-frame-FEM-solver" target="_blank">
+                            FEM Solver Repository <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

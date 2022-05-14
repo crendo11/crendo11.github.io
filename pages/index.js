@@ -49,24 +49,30 @@ const Page = () => {
                     <Paragraph>
                         I am a passionate Mechanical Engineer with a minor in Computational Mechanics from
                         Universidad EAFIT, Colombia. I have been working in the field of Computer Graphics
-                        with a strong background in programming. Currently, I am pursuing a MSc degree in
+                        with a strong background in programming.
+                    </Paragraph>
+                    <Paragraph>
+                        Currently, I am pursuing an MSc degree in
                         Engineering in the field of Computational Geometry and Computer Graphics for cloud
-                        technologies at the {' '} 
+                        technologies at the {' '}
                         <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
                             CAD CAM CAE Laboratory
-                        </Link>. Also, hold an software engineer position at {' '}
+                        </Link>. Also, hold a software engineer position at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
                         </Link>, a top Colombian Start-Up focused on the research and development of high-quality
                         cloud technology solutions for industry 4.0. <br />
+
+                    </Paragraph>
+                    <Paragraph>
                         I have produced high-quality research papers concerning wing profile evolution,
                         skin friction measurements, and analytic forms fitting partnering with top tier
-                        universities such as UIS (Colombia) and University of Melbourne (Australia).
+                        universities such as UIS (Colombia) and The University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                                My Portafolio
+                                My Portfolio
                             </Button>
                         </NextLink>
                     </Box>
@@ -158,17 +164,17 @@ const Page = () => {
                     </Heading>
                     <List>
                         <ListItem>
-                            <Button variant="ghost" colorScheme="teal" 
-                                onClick={() => {navigator.clipboard.writeText('crendoc11@gmail.com')}}
+                            <Button variant="ghost" colorScheme="teal"
+                                onClick={() => { navigator.clipboard.writeText('crendoc11@gmail.com') }}
                                 leftIcon={<Icon fontSize={24} as={IoMail} />}>
-                                    crendoc11@gmail.com
+                                crendoc11@gmail.com
                             </Button>
                         </ListItem>
                         <ListItem>
-                            <Button variant="ghost" colorScheme="teal" 
-                                onClick={() => {navigator.clipboard.writeText('+573208719484')}}
+                            <Button variant="ghost" colorScheme="teal"
+                                onClick={() => { navigator.clipboard.writeText('+573208719484') }}
                                 leftIcon={<Icon fontSize={24} as={IoPhonePortrait} />}>
-                                    +57 320 8719484
+                                +57 320 8719484
                             </Button>
                         </ListItem>
                     </List>
