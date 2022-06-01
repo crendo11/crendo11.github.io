@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="wingProfileEvol">
             <Container>
                 <Title>
-                    Wing Profile Evolution Driven by Computational FLuid Dynamics<Badge>2019</Badge>
+                    Wing Profile Evolution Driven by Computational Fluid Dynamics<Badge>2019</Badge>
                 </Title>
                 <P>
                     The project was developed during my undergraduate studies at the EAFIT University.
