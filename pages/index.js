@@ -26,7 +26,7 @@ const Page = () => {
                         <Heading as="h2" variant="page.-title">
                             Cristian Rendon
                         </Heading>
-                        <p>Mechanical Engineer (Researcher, Developer, Geek)</p>
+                        <p>PhD student in Augmented Vision (Researcher, Developer, Geek)</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
                         <Image
@@ -48,22 +48,29 @@ const Page = () => {
                         About me
                     </Heading>
                     <Paragraph>
-                        I am a passionate Mechanical Engineer with a minor in Computational Mechanics from
-                        Universidad EAFIT, Colombia. I have been working in the field of Computer Graphics
-                        with a strong background in programming.
+                        I am a passionate Mechanical Engineer with a minor in Computational
+                        Mechanics from Universidad EAFIT, Colombia. I have been working in
+                        Computer Graphics with a strong background in programming.
                     </Paragraph>
                     <Paragraph>
-                        Currently, I am pursuing an MSc degree in
-                        Engineering in the field of Computational Geometry and Computer Graphics for cloud
-                        technologies at the {' '}
+                        Currently, I am pursuing a PhD in Augmented Vision at the {' '}
+                        <Link href="https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/virtual-augmented-environments-for-simulation-experiments-venise/" target="_blank">
+                            VENISE
+                        </Link> group, part of the LISN laboratory from the CRNS.
+                        I am working on the thesis "Enhance Human Performance Through
+                        Augmented Vision" under the supervision of Prof. Christian Sandor
+                        and Prof. Richard Legras.
+                    </Paragraph>
+                    <Paragraph>
+                        I did an MSc in Engineering in Computational Geometry and Computer
+                        Graphics for cloud technologies at the {' '}
                         <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
                             CAD CAM CAE Laboratory
-                        </Link>. Also, hold a software engineer position at {' '}
+                        </Link>. Also, I held a software engineer position at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
                         </Link>, a top Colombian Start-Up focused on the research and development of high-quality
                         cloud technology solutions for industry 4.0. <br />
-
                     </Paragraph>
                     <Paragraph>
                         I have produced high-quality research papers concerning wing profile evolution,
@@ -112,7 +119,7 @@ const Page = () => {
                     {/* Graduation date */}
                     <BioSection>
                         <BioYear>
-                            2017-present
+                            2017-2022
                         </BioYear>
                         Researach assistant at {' '}
                         <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
@@ -122,11 +129,20 @@ const Page = () => {
                     {/* Current studies, MSc */}
                     <BioSection>
                         <BioYear>
-                            2020-present
+                            2020-2022
                         </BioYear>
                         Software Engineer at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
+                        </Link>.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>
+                            2022-present
+                        </BioYear>
+                        PhD student in Augmented Vision at {' '}
+                        <Link href="https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/virtual-augmented-environments-for-simulation-experiments-venise/" target="_blank">
+                            VENISE - LISN
                         </Link>.
                     </BioSection>
                 </Section>
@@ -136,7 +152,7 @@ const Page = () => {
                         I love
                     </Heading>
                     <Paragraph>
-                        Science, Games, Technology, Movies and Series,
+                        Science, Games, Technology, Movies and Series, Sports
                     </Paragraph>
                 </Section>
                 <Section delay={0.3}>
@@ -173,9 +189,9 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <Button variant="ghost" colorScheme="teal"
-                                onClick={() => { navigator.clipboard.writeText('+573208719484') }}
+                                onClick={() => { navigator.clipboard.writeText('+33749629931') }}
                                 leftIcon={<Icon fontSize={24} as={IoPhonePortrait} />}>
-                                +57 320 8719484
+                                +33 7 49 62 99 31
                             </Button>
                         </ListItem>
                         <ListItem>
