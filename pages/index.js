@@ -57,8 +57,8 @@ const Page = () => {
                         <Link href="https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/virtual-augmented-environments-for-simulation-experiments-venise/" target="_blank">
                             VENISE
                         </Link> group, part of the LISN laboratory from the CRNS.
-                        I am working on the thesis "Enhance Human Performance Through
-                        Augmented Vision" under the supervision of Prof. Christian Sandor
+                        I am working on the thesis &quot;Enhance Human Performance Through
+                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor
                         and Prof. Richard Legras.
                     </Paragraph>
                     <Paragraph>
