@@ -189,9 +189,9 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <Button variant="ghost" colorScheme="teal"
-                                onClick={() => { navigator.clipboard.writeText('+33749629931') }}
+                                onClick={() => { navigator.clipboard.writeText('+33624640335') }}
                                 leftIcon={<Icon fontSize={24} as={IoPhonePortrait} />}>
-                                +33 7 49 62 99 31
+                                +33 6 24 64 03 35
                             </Button>
                         </ListItem>
                         <ListItem>
