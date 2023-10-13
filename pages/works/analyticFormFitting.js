@@ -12,10 +12,10 @@ const Work = () => {
                     Analytic Form Fitting in Poor Triangular Meshes <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A novel algorithm for rapid segmentation of 3D triangular meshes, suited
+                    A novel algorithm for rapid segmentation of 3D triangular meshes which is suited
                     to the limitations of web applications. The algorithm segments and identifies
-                    Cylinders, Spheres, and Cones in triangulated meshes. We implement spatial hashing
-                    and boundary representation for a preprocessing sequence to accelerate the fitting.
+                    Cylinders, Spheres, and Cones in triangulated meshes. We accelerate the fitting by 
+                    implementing a spatial hashing and boundary representation during the preprocessing sequence.
                 </P>
                 <P>
                     The research is conducted in a partnership between the {' '}
@@ -23,7 +23,7 @@ const Work = () => {
                         CAD CAM CAE Laboratory
                     </Link> {' '} and <Link href="https://www.cohesivemanufacturing.com/" target="_blank">
                         Manufactura Cohesiva
-                    </Link> {' '} applying research to the development of new technologies and methods in the industry.
+                    </Link> {' '}, applying research to develop new technologies and methods in the industry.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

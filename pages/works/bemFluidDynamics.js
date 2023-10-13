@@ -12,7 +12,7 @@ const Work = () => {
                     Boundary Element Method in Fluid Dynamics <Badge>2021</Badge>
                 </Title>
                 <P>
-                    Co-author in the project &quot;Solution of Singularities in Boundary Methods for Fluid dynamics 
+                    Co-author in the project &quot;Solution of Singularities in Boundary Methods for Fluid Dynamics 
                     using Node Displacement and Analytic Integral Evaluation&quot;. An implementation of the BEM to
                     solve Steady Incompressible Viscous Flow in 2D. We solve the singularity of the Boundary Integral
                     Equations by implementing a source node displacement. Publication of the article is pending.

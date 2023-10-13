@@ -12,10 +12,10 @@ const Work = () => {
                     Wing Profile Evolution Driven by Computational Fluid Dynamics <Badge>2019</Badge>
                 </Title>
                 <P>
-                    The project was developed during my undergraduate studies at the EAFIT University.
-                    We analyzed the evolution of an initial blunt object (rectangle) into a NACA airfoil.
-                    The transition was conducted by examining fluid mechanics indicators such as lift, drag,
-                    streamline curvature, and pressure difference.
+                We developed this project during my undergraduate studies at EAFIT University.
+                We analyzed the evolution of an initial blunt object (rectangle) into a NACA airfoil.
+                The transition was conducted by examining fluid mechanics indicators such as lift, drag,
+                streamline curvature, and pressure difference.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

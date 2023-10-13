@@ -15,19 +15,19 @@ const Work = () => {
                     The article was produced as a result of my internship at the {' '}
                     <Link href="https://mechanical.eng.unimelb.edu.au/research/fluid-mechanics/walter-bassett" target="_blank">
                         Walter Bassett aerodynamics laboratory
-                    </Link> {' '}
-                    where I was under the supervision of Prof. Ivan Marusic and Ph.D. student Jason Ruan in the
+                    </Link> {', '}
+                    where I was under the supervision of Prof. Ivan Marusic and PhD student Jason Ruan in the
                     project &quot;Active Control of Large-scale Structures in High Reynolds Number Turbulent Boundary Layers&quot;.
                 </P>
                 <P>
-                    The article reviews three methods implemented at the laboratry to measure the skin friction.
+                    The article reviews three methods implemented in the laboratory to measure skin friction.
                     <ol>
                         <li> Hot-wire anemometry </li>
                         <li> Hot-film anemometry </li>
                         <li> Particle Image Velocimetry (PIV) </li>
                     </ol>
-                    All experiments were carried out in the High Reynolds Number Boundary Layer Wind Tunnel, signal 
-                    analysis and post-processing were required to compute the results. 
+                    We carried out all the experiments in the High Reynolds Number Boundary Layer Wind Tunnel.
+                    To analyse the results, I acquired basic skills in signal post-processing.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
