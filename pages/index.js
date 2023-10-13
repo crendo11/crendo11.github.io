@@ -152,7 +152,7 @@ const Page = () => {
                         I love
                     </Heading>
                     <Paragraph>
-                        Science, Games, Technology, Movies and Series, Sports
+                        Science, Games, Technology, Sports, Movies and Series
                     </Paragraph>
                 </Section>
                 <Section delay={0.3}>
