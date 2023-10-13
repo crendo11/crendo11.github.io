@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="bemFluidDynamics">
             <Container>
                 <Title>
-                    Boundary Element Method in Fluid Dynamics<Badge>2021</Badge>
+                    Boundary Element Method in Fluid Dynamics <Badge>2021</Badge>
                 </Title>
                 <P>
                     Co-author in the project &quot;Solution of Singularities in Boundary Methods for Fluid dynamics 

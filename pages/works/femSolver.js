@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="femSolver">
             <Container>
                 <Title>
-                    FEM Solver for Trusses and Frames<Badge>2017</Badge>
+                    FEM Solver for Trusses and Frames <Badge>2017</Badge>
                 </Title>
                 <P>
                     Project developed under the course IM-0238 Finite Element Method of my undergraduate 

@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="skinFriction">
             <Container>
                 <Title>
-                    Skin-friction Measurements in Turbulent Boundary Layers<Badge>2020</Badge>
+                    Skin-friction Measurements in Turbulent Boundary Layers <Badge>2020</Badge>
                 </Title>
                 <P>
                     The article was produced as a result of my internship at the {' '}

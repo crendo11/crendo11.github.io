@@ -8,7 +8,7 @@ const Work = () => {
         <Layout title="clothSimulation">
             <Container>
                 <Title>
-                    Human-cloth Simulation<Badge>Ongoing</Badge>
+                    Human-cloth Simulation <Badge>2022</Badge>
                 </Title>
                 <P>
                     Worked on the research and development of a kernel for the computer

@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title="analyticFormFitting">
             <Container>
                 <Title>
-                    Analytic Form Fitting in Poor Triangular Meshes<Badge>2021</Badge>
+                    Analytic Form Fitting in Poor Triangular Meshes <Badge>2021</Badge>
                 </Title>
                 <P>
                     A novel algorithm for rapid segmentation of 3D triangular meshes, suited
