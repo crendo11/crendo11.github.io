@@ -69,12 +69,12 @@ const Page = () => {
                         </Link>. Also, I held a software engineer position at {' '}
                         <Link href="https://cohesivemanufacturing.com" target="_blank">
                             Manufactura Cohesiva S.A.S
-                        </Link>, a top Colombian Start-Up focused on the research and development of high-quality
+                        </Link>, a top Colombian Start-Up focused on researching and developing of high-quality
                         cloud technology solutions for industry 4.0. <br />
                     </Paragraph>
                     <Paragraph>
                         I have produced high-quality research papers concerning wing profile evolution,
-                        skin friction measurements, and analytic forms fitting partnering with top tier
+                        skin friction measurements, and analytic forms fitting, partnering with top-tier
                         universities such as UIS (Colombia) and The University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
