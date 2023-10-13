@@ -11,7 +11,7 @@ const Work = () => {
                     Human-cloth Simulation<Badge>Ongoing</Badge>
                 </Title>
                 <P>
-                    I&apos;m currently working on the research and development of a kernel for the computer
+                    Worked on the research and development of a kernel for the computer
                     simulation in real-time of cloth using potential functions.
                 </P>
                 <P>

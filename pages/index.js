@@ -19,7 +19,7 @@ const Page = () => {
         <Layout>
             <Container maxW='container.sm'>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a Mechanical Engineer based in France
+                    Hello, I&apos;m a PhD student based in France
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
@@ -48,7 +48,7 @@ const Page = () => {
                         About me
                     </Heading>
                     <Paragraph>
-                        I am a passionate Mechanical Engineer with a minor in Computational
+                        I am a passionate MSc. Engineer with a minor in Computational
                         Mechanics from Universidad EAFIT, Colombia. I have been working in
                         Computer Graphics with a strong background in programming.
                     </Paragraph>

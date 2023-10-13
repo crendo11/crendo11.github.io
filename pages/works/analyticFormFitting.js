@@ -12,7 +12,7 @@ const Work = () => {
                     Analytic Form Fitting in Poor Triangular Meshes<Badge>2021</Badge>
                 </Title>
                 <P>
-                    Anovel algorithm for rapid segmentation of 3D triangular meshes, suited
+                    A novel algorithm for rapid segmentation of 3D triangular meshes, suited
                     to the limitations of web applications. The algorithm segments and identifies
                     Cylinders, Spheres, and Cones in triangulated meshes. We implement spatial hashing
                     and boundary representation for a preprocessing sequence to accelerate the fitting.
