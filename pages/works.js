@@ -9,7 +9,7 @@ import thumbnailWingEvol from '../public/images/works/Wing_Profile_Evolution/win
 import thumbnailFEM from '../public/images/works/FEM/portico_solution.png';
 import thumbnailCloth from '../public/images/works/Clothing/manequin_scalar.png';
 import thumbnailBEM from '../public/images/works/BEM/BEM_mesh.png';
-import thumbnaulPendulum from '../public/images/works/Pendulum/pendulum_variables.png';
+import thumbnaulPendulum from '../public/images/works/pendulum/pendulum_variables.png';
 
 const Works = () => {
     return (
