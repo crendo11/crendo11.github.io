@@ -9,6 +9,7 @@ import thumbnailWingEvol from '../public/images/works/Wing_Profile_Evolution/win
 import thumbnailFEM from '../public/images/works/FEM/portico_solution.png';
 import thumbnailCloth from '../public/images/works/Clothing/manequin_scalar.png';
 import thumbnailBEM from '../public/images/works/BEM/BEM_mesh.png';
+import thumbnaulPendulum from '../public/images/works/Pendulum/pendulum_variables.png';
 
 const Works = () => {
     return (
@@ -46,6 +47,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem id="bemFluidDynamics" title="Boundary Element Method in Fluid Dynamics" thumbnail={thumbnailBEM}>
                             Co-authored the project of BEM for Fluid Dynamics.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="pendulum" title="Pendulum Model Analysis" thumbnail={thumbnaulPendulum}>
+                            Analysis and Simulation of a Pendulum
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
