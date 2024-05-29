@@ -54,8 +54,8 @@ const Page = () => {
                     </Paragraph>
                     <Paragraph>
                         Currently, I am pursuing a PhD in Augmented Vision at the {' '}
-                        <Link href="https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/virtual-augmented-environments-for-simulation-experiments-venise/" target="_blank">
-                            VENISE
+                        <Link href="https://www.lisn.upsaclay.fr/" target="_blank">
+                            ARAI
                         </Link> group, part of the LISN laboratory from the CRNS.
                         I am working on the thesis &quot;Enhance Human Performance Through
                         Augmented Vision&quot; under the supervision of Prof. Christian Sandor
