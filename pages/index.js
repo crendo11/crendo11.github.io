@@ -141,8 +141,8 @@ const Page = () => {
                             2022-present
                         </BioYear>
                         PhD student in Augmented Vision at {' '}
-                        <Link href="https://www.lisn.upsaclay.fr/recherche/departements-et-equipes/interaction-avec-lhumain/virtual-augmented-environments-for-simulation-experiments-venise/" target="_blank">
-                            VENISE - LISN
+                        <Link href="https://www.lisn.upsaclay.fr/" target="_blank">
+                            ARAI - LISN
                         </Link>.
                     </BioSection>
                 </Section>
