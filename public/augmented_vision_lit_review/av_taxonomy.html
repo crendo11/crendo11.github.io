@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title -->
+	<title>Augmented Vision Taxonomy</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/request_animation.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+	<script type="text/javascript" src="js/pva.js"></script>
+	<script type="text/javascript" src="js/engine.js"></script>
+	
+	<!-- for multi select widget -->
+	<script src="js/libs/slim-select/1.18.7/slimselect.min.js"></script>
+	<link href="js/libs/slim-select/1.18.7/slimselect.min.css" rel="stylesheet"></link>
+	<script>
+		function init_select(){
+			select_application = new SlimSelect({
+			  select: '#multiple',
+			  closeOnSelect: false,
+		        placeholder: 'Select Applicatio',
+
+		      onChange: (info) =>{
+		      	lit = [];
+		      	for (var i = 0; i < info.length; i++)
+		      	{
+		      		for (var j = 0; j < applications.length; j++)
+		      		{
+		      			//find the matching application then load the lit
+		      			if (info[i].text === applications[j].application){
+		      				lit = lit.concat(applications[j].lit);
+		      			}
+		      		}
+		      	}
+
+		      	//init();
+		      	resize(true);
+		      	set_select_colors();
+		      }
+			});
+
+			for (var i = 0; i < applications.length; i++)
+			{
+			    select_application.addData({text:applications[i].application, data: applications[i].lit});
+			    select_application.set(applications[i].application);
+			}
+			setTimeout(start, 100);
+		}
+
+		function set_select_colors()
+		{
+			$('.ss-value').each(
+				function()
+				{
+					var s = $(this).children()[0];
+					if (s.textContent in highlights)
+					{
+						$(this).css('background-color',highlights[s.textContent]);
+					}
+				}
+			);
+		}	
+
+		function start()
+		{
+			init();
+			set_select_colors();
+		}
+	</script>
+</head>
+
+<body onload="init();init_select()" onresize="resize(true)">
+	<div id="ctrl_panel">
+		<h1>Augmented Vision Taxonomy</h1>
+		<nav>
+			<!-- Options -->
+			<select id="multiple"  multiple></select>
+			<div class="cite">
+				The code for this diagram was extracted from: <a href="http://hdl.handle.net/1880/110495" target="_blank">Revisiting Collaboration through Mixed Reality: The Evolution of Groupware - Supplemental Visualization</a>
+			</div>
+		</nav>
+	</div>
+	<canvas id="vis">if you are seeing this message then please update your browser to its latest version.</canvas>;
+</body>
+
+</html>
