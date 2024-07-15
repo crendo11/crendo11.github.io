@@ -30,6 +30,7 @@ var _index = -1;
 var _num = 0;
 var vis_inited = false;
 
+var clicks = 0;
 
 // initialise function
 function init() {
@@ -48,7 +49,12 @@ function init() {
 			mouseMove(canvas, e.clientX, e.clientY);
 		});
 		canvas.addEventListener('click', function (e) {
-			mouseClick(canvas, e.clientX, e.clientY);
+			clicks++;
+			console.log(clicks);
+			if (clicks === 2) {
+				mouseClick(canvas, e.clientX, e.clientY);
+				clicks = 0;
+			}
 		});
 		canvas.addEventListener('mouseout', function (e) {
 			mouseMove(canvas, e.clientX, e.clientY);
