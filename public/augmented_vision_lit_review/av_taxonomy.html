@@ -20,7 +20,7 @@
 			select_application = new SlimSelect({
 			  select: '#multiple',
 			  closeOnSelect: false,
-		        placeholder: 'Select Applicatio',
+		        placeholder: 'Select Applications',
 
 		      onChange: (info) =>{
 		      	lit = [];
@@ -75,14 +75,54 @@
 	<div id="ctrl_panel">
 		<h1>Augmented Vision Taxonomy</h1>
 		<nav>
+			<div class="nav-buttons">
+				<button id="shuffle_button" onclick="enableShuffle(true)">enable shuffling</button><br />
+				<button onclick="location.reload()">reset</button>
+			</div>
 			<!-- Options -->
 			<select id="multiple"  multiple></select>
 			<div class="cite">
-				The code for this diagram was extracted from: <a href="http://hdl.handle.net/1880/110495" target="_blank">Revisiting Collaboration through Mixed Reality: The Evolution of Groupware - Supplemental Visualization</a>
+				Code for diagram extracted from: <a href="http://hdl.handle.net/1880/110495" target="_blank">Revisiting Collaboration through Mixed Reality</a>
 			</div>
 		</nav>
 	</div>
 	<canvas id="vis">if you are seeing this message then please update your browser to its latest version.</canvas>;
+	<div id="shuffle_menu">
+		<div class="shuffle_button_container" id="c0">
+			<button id="c0b0" onclick="moveIndex(1, 0)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c1">
+			<button id="c1b0" onclick="moveIndex(-1, 1)"><</button>
+			<button id="c1b1" onclick="moveIndex(1, 1)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c2">
+			<button id="c2b0" onclick="moveIndex(-1, 2)"><</button>
+			<button id="c2b1" onclick="moveIndex(1, 2)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c3">
+			<button id="c3b1" onclick="moveIndex(-1, 3)"><</button>
+			<button id="c3b1" onclick="moveIndex(1, 3)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c4">
+			<button id="c4b0" onclick="moveIndex(-1, 4)"><</button>
+			<button id="c4b1" onclick="moveIndex(1, 4)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c5">
+			<button id="c5b0" onclick="moveIndex(-1, 5)"><</button>
+			<button id="c5b1" onclick="moveIndex(1, 5)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c6">
+			<button id="c6b0" onclick="moveIndex(-1, 6)"><</button>
+			<button id="c6b1" onclick="moveIndex(1, 6)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c7">
+			<button id="c7b0" onclick="moveIndex(-1, 7)"><</button>
+			<button id="c7b1" onclick="moveIndex(1, 7)">></button>
+		</div>
+		<div class="shuffle_button_container" id="c8">
+			<button id="c8b0" onclick="moveIndex(-1, 8)"><</button>
+		</div>
+	</div>
 </body>
 
 </html>

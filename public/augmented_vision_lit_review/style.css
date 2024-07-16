@@ -170,8 +170,14 @@ button:hover {
 
 	.cite{
 		display: flex;
-		flex-direction: column;
-		font-size: small;
+		font-size: 10px;
 		justify-content: right;
 		align-items: right;
+	}
+
+	.nav-buttons{
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		width: 100%;
 	}
