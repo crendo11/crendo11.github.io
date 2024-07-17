@@ -4,6 +4,11 @@
 <head>
     <!-- Title -->
 	<title>Augmented Vision Taxonomy</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+
+	<meta name="keywords" content="Augmented Vision Taxonomy" />
+
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/request_animation.js"></script>
@@ -86,41 +91,27 @@
 			</div>
 		</nav>
 	</div>
-	<canvas id="vis">if you are seeing this message then please update your browser to its latest version.</canvas>;
-	<div id="shuffle_menu">
-		<div class="shuffle_button_container" id="c0">
-			<button id="c0b0" onclick="moveIndex(1, 0)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c1">
-			<button id="c1b0" onclick="moveIndex(-1, 1)"><</button>
-			<button id="c1b1" onclick="moveIndex(1, 1)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c2">
-			<button id="c2b0" onclick="moveIndex(-1, 2)"><</button>
-			<button id="c2b1" onclick="moveIndex(1, 2)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c3">
-			<button id="c3b1" onclick="moveIndex(-1, 3)"><</button>
-			<button id="c3b1" onclick="moveIndex(1, 3)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c4">
-			<button id="c4b0" onclick="moveIndex(-1, 4)"><</button>
-			<button id="c4b1" onclick="moveIndex(1, 4)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c5">
-			<button id="c5b0" onclick="moveIndex(-1, 5)"><</button>
-			<button id="c5b1" onclick="moveIndex(1, 5)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c6">
-			<button id="c6b0" onclick="moveIndex(-1, 6)"><</button>
-			<button id="c6b1" onclick="moveIndex(1, 6)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c7">
-			<button id="c7b0" onclick="moveIndex(-1, 7)"><</button>
-			<button id="c7b1" onclick="moveIndex(1, 7)">></button>
-		</div>
-		<div class="shuffle_button_container" id="c8">
-			<button id="c8b0" onclick="moveIndex(-1, 8)"><</button>
+	<div>
+		<canvas id="vis">if you are seeing this message then please update your browser to its latest version.</canvas>;
+		<div id="shuffle_menu" class="shuffle_menu">
+			<div class="shuffle_button_container" id="c0">
+				<button id="c0b0" onclick="moveIndex(1, 0)">></button>
+			</div>
+			<div class="shuffle_button_container" id="c1">
+				<button id="c1b0" onclick="moveIndex(-1, 1)"><</button>
+				<button id="c1b1" onclick="moveIndex(1, 1)">></button>
+			</div>
+			<div class="shuffle_button_container" id="c2">
+				<button id="c2b0" onclick="moveIndex(-1, 2)"><</button>
+				<button id="c2b1" onclick="moveIndex(1, 2)">></button>
+			</div>
+			<div class="shuffle_button_container" id="c3">
+				<button id="c3b1" onclick="moveIndex(-1, 3)"><</button>
+				<button id="c3b1" onclick="moveIndex(1, 3)">></button>
+			</div>
+			<div class="shuffle_button_container" id="c4">
+				<button id="c4b0" onclick="moveIndex(-1, 4)"><</button>
+			</div>
 		</div>
 	</div>
 </body>

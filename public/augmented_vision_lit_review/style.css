@@ -97,11 +97,12 @@ button:hover {
 	
 	/* layout */
 	left: 0;
-	position: absolute;
+	/*position: absolute;*/
 	z-index: 0;
 	
 	/* typography */
 	font-family: 'Open Sans';
+	
 }
 
 #ctrl_panel {
@@ -129,13 +130,15 @@ button:hover {
 	display: none;
 	
 	/* layout */
-	width: 100%;
+	/*width of the canvas*/
+	width: 100%; 
 	height: 50px;
 	max-height: 50px;
 	position: absolute;
 	bottom: 0;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 	
 	/* typography */
 	text-align: center;
@@ -148,6 +151,7 @@ button:hover {
 	margin: 0;
 	padding: 0;
 	float: left;
+	display: block;
 }
 
 .shuffle_button_container button {
@@ -180,4 +184,26 @@ button:hover {
 		align-items: center;
 		justify-content: flex-end;
 		width: 100%;
+	}
+
+
+	@media screen and (max-width: 600px) {
+
+
+		/* Horrible attempt to hide the buttons that are not working on mobile */
+		.nav-buttons{
+			display:none;
+		}
+
+		.shuffle_menu {
+			display: none !important;
+		}
+
+		.ss-25838{
+			display: none !important;
+		} 
+		
+		.ss-main{
+			display: none !important;
+		}
 	}
