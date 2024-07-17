@@ -52,7 +52,9 @@ function init() {
 	if (!vis_inited) {
 		// add event handlers	
 		canvas.addEventListener('mousemove', function (e) {
-			mouseMove(canvas, e.clientX, e.clientY);
+			if (!window.mobileCheck()){
+				mouseMove(canvas, e.clientX, e.clientY);
+			}
 		});
 		canvas.addEventListener('click', function (e) {
 			clicks++;
@@ -63,7 +65,14 @@ function init() {
 			}
 		});
 		canvas.addEventListener('mouseout', function (e) {
-			mouseMove(canvas, e.clientX, e.clientY);
+			if (!window.mobileCheck()){
+				mouseMove(canvas, e.clientX, e.clientY);
+			}
+		});
+
+		// holding the touch event handlers
+		canvas.addEventListener('touchmove', function (e) {
+			mouseMove(canvas, e.touches[0].clientX, e.touches[0].clientY);
 		});
 		// start the draw loop
 	}
