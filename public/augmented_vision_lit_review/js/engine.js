@@ -52,29 +52,23 @@ function init() {
 	if (!vis_inited) {
 		// add event handlers	
 		canvas.addEventListener('mousemove', function (e) {
-			if (!window.mobileCheck()){
-				mouseMove(canvas, e.clientX, e.clientY);
-			}
+			mouseMove(canvas, e.offsetX, e.offsetY);
 		});
 		canvas.addEventListener('click', function (e) {
 			clicks++;
 			console.log(clicks);
 			if (clicks === 2) {
-				mouseClick(canvas, e.clientX, e.clientY);
+				mouseClick(canvas, e.offsetX, e.offsetY);
 				clicks = 0;
+				if (window.mobileCheck()) {
+					mouseMove(canvas, e.offsetX, e.offsetY);
+				}
 			}
 		});
 		canvas.addEventListener('mouseout', function (e) {
-			if (!window.mobileCheck()){
-				mouseMove(canvas, e.clientX, e.clientY);
-			}
+			mouseMove(canvas, e.offsetX, e.offsetY);
 		});
 
-		// holding the touch event handlers
-		canvas.addEventListener('touchmove', function (e) {
-			mouseMove(canvas, e.touches[0].clientX, e.touches[0].clientY);
-		});
-		// start the draw loop
 	}
 	draw();
 
