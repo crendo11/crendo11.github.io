@@ -54,9 +54,12 @@ const Page = () => {
                     </Paragraph>
                     <Paragraph>
                         Currently, I am pursuing a PhD in Augmented Vision at the {' '}
-                        <Link href="https://www.lisn.upsaclay.fr/" target="_blank">
+                        <Link href="https://ar-ai.org/" target="_blank">
                             ARAI
-                        </Link> group, part of the LISN laboratory from the CRNS.
+                        </Link> group, part of the LISN laboratory from the 
+                        <Link href="https://www.cnrs.fr/en" target="_blank">
+                            CNRS.
+                        </Link>
                         I am working on the thesis &quot;Enhance Human Performance Through
                         Augmented Vision&quot; under the supervision of Prof. Christian Sandor
                         and Prof. Richard Legras.
@@ -141,7 +144,7 @@ const Page = () => {
                             2022-present
                         </BioYear>
                         PhD student in Augmented Vision at {' '}
-                        <Link href="https://www.lisn.upsaclay.fr/" target="_blank">
+                        <Link href="https://ar-ai.org/" target="_blank">
                             ARAI - LISN
                         </Link>.
                     </BioSection>
