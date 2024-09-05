@@ -56,13 +56,12 @@ const Page = () => {
                         Currently, I am pursuing a PhD in Augmented Vision at the {' '}
                         <Link href="https://ar-ai.org/" target="_blank">
                             ARAI
-                        </Link> group, part of the LISN laboratory from the 
+                        </Link> group, part of the LISN laboratory from the {' '}
                         <Link href="https://www.cnrs.fr/en" target="_blank">
                             CNRS.
-                        </Link>
-                        I am working on the thesis &quot;Enhance Human Performance Through
-                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor
-                        and Prof. Richard Legras.
+                        </Link> I am working on the thesis &quot;Enhance Human Performance Through
+                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor, 
+                        Prof. Richard Legras and Prof. Marie-Anne Burcklen.
                     </Paragraph>
                     <Paragraph>
                         I did an MSc in Engineering in Computational Geometry and Computer
