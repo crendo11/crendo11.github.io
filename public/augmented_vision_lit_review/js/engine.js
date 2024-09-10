@@ -6,11 +6,11 @@ var highlight_color = 'rgba(178,223,138, 1)';
 
 var useCustomHighlights = true;
 var highlights = [];
-highlights[''] = 'rgba(51,160,44, 1)';
-highlights['Visual Perception Enhancement'] = 'rgba(143,70,168, 1)';
-highlights['Vision Correction Systems'] = 'rgba(67, 205, 128, 1)';
-highlights[''] = 'rgba(194,165,207, 1)';
-highlights['Task Specific'] = 'rgba(0,109,44, 1)';
+// highlights[''] = 'rgba(51,160,44, 1)';
+highlights['Visual Perception Enhancement'] = 'rgba(0, 109, 164, 1)';
+highlights['Vision Correction Systems'] = 'rgba(255, 183, 3, 1)';
+highlights['Task Specific'] = 'rgba(241, 138, 173, 1)';
+// highlights[''] = 'rgba(194,165,207, 1)';
 
 
 var intersect_color = 'rgba(255, 100, 150, 1)';//'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
