@@ -197,7 +197,7 @@ const Page = () => {
                             </Button>
                         </ListItem>
                         <ListItem>
-                            <Link href="https://drive.google.com/file/d/1U3jsq-ExVx1yKEjP2it3fAdO-hfe_WBw/view?usp=sharing" target="_blank">
+                            <Link href="/uploads/CV_CristianRendon.pdf" target="_blank">
                                 <Button variant="ghost" colorScheme="teal"
                                     leftIcon={<Icon fontSize={24} as={IoCloudDownload} />}>
                                     CV
