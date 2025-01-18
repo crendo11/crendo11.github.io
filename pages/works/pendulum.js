@@ -19,7 +19,7 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>PDF</Meta>
-                        <Link href="https://drive.google.com/file/d/1pIWiXXCSfjG8ogjYJx_TUVZ3pk6vzYq-/view?usp=sharing" target="_blank">
+                        <Link href="/uploads/pendulo_balancin.pdf" target="_blank">
                         Analysis and Simulation of a Pendulum <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
