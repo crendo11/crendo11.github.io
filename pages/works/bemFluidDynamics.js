@@ -20,7 +20,7 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Draft PDF</Meta>
-                        <Link href="https://drive.google.com/file/d/1CeZmRmjWlxEIAYVNgRY4kKwOlbdu4F1p/view?usp=sharing" target="_blank">
+                        <Link href="/uploads/2021_SolutionSingularitiesBEMFluidDynamics.pdf" target="_blank">
                         Solution of Singularities in Boundary Methods for Fluid dynamics <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
