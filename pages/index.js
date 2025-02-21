@@ -10,7 +10,6 @@ import {
     IoLogoLinkedin,
     IoLogoGithub,
     IoMail,
-    IoPhonePortrait,
     IoCloudDownload
 } from 'react-icons/io5';
 
