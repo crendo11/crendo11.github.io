@@ -189,13 +189,13 @@ const Page = () => {
                                 crendoc11@gmail.com
                             </Button>
                         </ListItem>
-                        <ListItem>
+                        {/* <ListItem>
                             <Button variant="ghost" colorScheme="teal"
                                 onClick={() => { navigator.clipboard.writeText('+33624640335') }}
                                 leftIcon={<Icon fontSize={24} as={IoPhonePortrait} />}>
                                 +33 6 24 64 03 35
                             </Button>
-                        </ListItem>
+                        </ListItem> */}
                         <ListItem>
                             <Link href="/uploads/CV_CristianRendon.pdf" target="_blank">
                                 <Button variant="ghost" colorScheme="teal"
