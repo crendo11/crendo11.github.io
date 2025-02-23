@@ -47,7 +47,7 @@ const Work = () => {
                     </ListItem>
                 </List>
                 <WorkImage src="/images/works/Analytic_Form_Fitting/cylinderFitting_experiment.png" alt="Analytic Form Fitting in Poor Triangular Meshes" />
-                <WorkImage src="/images/works/Analytic_Form_Fitting/ciguenal_cone.png" alt="Fitting of a cone" />
+                <WorkImage src="/images/works/Analytic_Form_Fitting/cone_fitting.png" alt="Fitting of a cone" />
             </Container>
         </Layout>
     )
