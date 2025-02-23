@@ -14,7 +14,7 @@ import {
 
 const Page = () => {
     return (
-        <Layout>
+        (<Layout>
             <Container maxW='container.sm'>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
                     Hello, I&apos;m a PhD student based in France
@@ -78,7 +78,7 @@ const Page = () => {
                         universities such as UIS (Colombia) and The University of Melbourne (Australia).
                     </Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/works">
+                        <NextLink href="/works" legacyBehavior>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                                 My Portfolio
                             </Button>
@@ -198,7 +198,7 @@ const Page = () => {
                     </List>
                 </Section>
             </Container>
-        </Layout>
+        </Layout>)
     );
 }
 
