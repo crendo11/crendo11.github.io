@@ -6,7 +6,6 @@ import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { BioSection, BioYear } from '../components/bio';
 import {
-    IoLogoInstagram,
     IoLogoLinkedin,
     IoLogoGithub,
     IoMail,
@@ -170,11 +169,11 @@ const Page = () => {
                             <Icon fontSize={24} as={IoLogoGithub} />
                         </Button>
                     </Link>
-                    <Link href="https://www.instagram.com/cris2125_/" target="_blank">
+                    {/* <Link href="https://bsky.app/profile/rendon-cris.bsky.social" target="_blank">
                         <Button variant="ghost" colorScheme="teal">
-                            <Icon fontSize={24} as={IoLogoInstagram} />
+                            <Icon fontSize={24} as={SiBluesky} />
                         </Button>
-                    </Link>
+                    </Link> */}
                 </Section>
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
