@@ -7,6 +7,7 @@ const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
+                <link rel="icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title> Cristian Rendon - Homepage </title>
             </Head>
