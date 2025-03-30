@@ -7,13 +7,13 @@ var highlight_color = 'rgba(178,223,138, 1)';
 var useCustomHighlights = true;
 var highlights = [];
 // highlights[''] = 'rgba(51,160,44, 1)';
-highlights['Visual Perception Enhancement'] = 'rgba(0, 109, 164, 1)';
-highlights['Vision Correction Systems'] = 'rgba(255, 183, 3, 1)';
-highlights['Task Specific'] = 'rgba(241, 138, 173, 1)';
+highlights['Visual Perception Enhancement'] = 'rgba(92, 201, 255, 1)';
+highlights['Vision Correction Systems'] = 'rgba(255, 163, 71, 1)';
+highlights['Task Specific'] = 'rgba(248, 140, 153, 1)';
 // highlights[''] = 'rgba(194,165,207, 1)';
 
 
-var intersect_color = 'rgba(255, 100, 150, 1)';//'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
+var intersect_color = 'rgba(113, 173, 130, 1)';//'rgba(0, 160, 100, 1)';//'rgba(113, 113, 198, 1)';
 
 var tooltipIsVisible = false;
 var drawTooltipLabels = false;
@@ -227,7 +227,7 @@ function mouseMove(canvas, x, y) {
 			else
 				vis.literature[i].background = highlight_color;
 
-			vis.literature[i].foreground = 'white';
+			// vis.literature[i].foreground = 'white';
 			vis.literature[i].isHighlighted = true;
 
 			for (var j = 0; j < vis.nodes.length; ++j) {
@@ -274,7 +274,7 @@ function mouseMove(canvas, x, y) {
 							else
 								vis.literature[k].background = highlight_color;
 
-							vis.literature[k].foreground = 'white';
+							// vis.literature[k].foreground = 'white';
 							vis.literature[k].isHighlighted = true;
 							somethingIsHit = true;
 						}
