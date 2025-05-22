@@ -145,6 +145,15 @@ const Page = () => {
                             ARAI - LISN
                         </Link>.
                     </BioSection>
+                    <BioSection>
+                        <BioYear>
+                            2025-2025
+                        </BioYear>
+                        Research Visit at  {' '}
+                        <Link href="https://www-ui.is.s.u-tokyo.ac.jp/en/" target="_blank">
+                            User Interface Research Group - The University of Tokyo
+                        </Link>.
+                    </BioSection>
                 </Section>
 
                 <Section delay={0.3}>
