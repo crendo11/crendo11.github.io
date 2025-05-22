@@ -151,8 +151,8 @@ const Page = () => {
                         </BioYear>
                         Research Visit at  {' '}
                         <Link href="https://www-ui.is.s.u-tokyo.ac.jp/en/" target="_blank">
-                            User Interface Research Group - The University of Tokyo
-                        </Link>.
+                            User Interface Research Group 
+                        </Link> - The University of Tokyo.
                     </BioSection>
                 </Section>
 
