@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="femSolver">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     FEM Solver for Trusses and Frames <Badge>2017</Badge>
                 </Title>

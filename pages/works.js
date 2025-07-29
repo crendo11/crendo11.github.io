@@ -9,7 +9,8 @@ import thumbnailWingEvol from '../public/images/works/Wing_Profile_Evolution/win
 import thumbnailFEM from '../public/images/works/FEM/portico_solution.png';
 import thumbnailCloth from '../public/images/works/Clothing/manequin_scalar.png';
 import thumbnailBEM from '../public/images/works/BEM/BEM_mesh.png';
-import thumbnaulPendulum from '../public/images/works/pendulum/pendulum_variables.png';
+import thumbnailPendulum from '../public/images/works/pendulum/pendulum_variables.png';
+import thumbnailAVSystems from '../public/images/works/AV_systems_review/AV_AR_venn_diagram.png';
 
 const Works = () => {
     return (
@@ -19,6 +20,11 @@ const Works = () => {
                     Works
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="augmentedVisionLitReview" title="Augmented Vision: Paradigms and Application" thumbnail={thumbnailAVSystems}>
+                            Systematic literature review in Augmented Vision systems.
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="clothSimulation" title="Simulation for Human-cloth Interaction" thumbnail={thumbnailCloth}>
                             Development of an engine for the simulations human-cloth interactions.
@@ -50,7 +56,7 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="pendulum" title="Pendulum Model Analysis" thumbnail={thumbnaulPendulum}>
+                        <WorkGridItem id="pendulum" title="Pendulum Model Analysis" thumbnail={thumbnailPendulum}>
                             Analysis and Simulation of a Pendulum
                         </WorkGridItem>
                     </Section>

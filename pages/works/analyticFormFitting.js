@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="analyticFormFitting">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     Analytic Form Fitting in Poor Triangular Meshes <Badge>2021</Badge>
                 </Title>

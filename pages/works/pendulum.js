@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="pendulum">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     Analysis and Simulation of a Pendulum <Badge>2018</Badge>
                 </Title>

@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="bemFluidDynamics">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     Boundary Element Method in Fluid Dynamics <Badge>2021</Badge>
                 </Title>

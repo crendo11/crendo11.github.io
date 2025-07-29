@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="wingProfileEvol">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     Wing Profile Evolution Driven by Computational Fluid Dynamics <Badge>2019</Badge>
                 </Title>

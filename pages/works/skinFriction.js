@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article';
 const Work = () => {
     return (
         <Layout title="skinFriction">
-            <Container>
+            <Container maxW='container'>
                 <Title>
                     Skin-friction Measurements in Turbulent Boundary Layers <Badge>2020</Badge>
                 </Title>
