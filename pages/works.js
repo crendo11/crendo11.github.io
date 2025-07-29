@@ -14,7 +14,7 @@ import thumbnaulPendulum from '../public/images/works/pendulum/pendulum_variable
 const Works = () => {
     return (
         <Layout>
-            <Container maxW='container.sm'>
+            <Container maxW='container'>
                 <Heading as="h3" fontSize={20} mb={4}>
                     Works
                 </Heading>

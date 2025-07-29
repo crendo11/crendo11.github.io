@@ -15,7 +15,7 @@ import {
 const Page = () => {
     return (
         (<Layout>
-            <Container maxW='container.sm'>
+            <Container maxW='container'>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
                     Hello, I&apos;m a PhD student based in France
                 </Box>
@@ -58,7 +58,7 @@ const Page = () => {
                         <Link href="https://www.cnrs.fr/en" target="_blank">
                             CNRS.
                         </Link> I am working on the thesis &quot;Enhance Human Performance Through
-                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor, 
+                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor,
                         Prof. Richard Legras and Prof. Marie-Anne Burcklen.
                     </Paragraph>
                     <Paragraph>
@@ -80,7 +80,7 @@ const Page = () => {
                     <Box align="center" my={4}>
                         <NextLink href="/works" legacyBehavior>
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                                My Portfolio
+                                Works                        
                             </Button>
                         </NextLink>
                     </Box>
@@ -88,45 +88,19 @@ const Page = () => {
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        Bio
-                    </Heading>
-                    {/* Born date (Maybe delete this one) */}
-                    <BioSection>
-                        <BioYear>1997</BioYear>
-                        Born in Medellin, Colombia.
-                    </BioSection>
-                    {/* Internship, MSc */}
+                        Experience
+                    </Heading>    
+                    {/* Tokyo Research Visit */}
                     <BioSection>
                         <BioYear>
-                            2019-2019
+                            2025-2025
                         </BioYear>
-                        Research intern at the Walter Bassett Aerodynamics Laboratory - The University of Melbourne.
+                        Research Visit at  {' '}
+                        <Link href="https://www-ui.is.s.u-tokyo.ac.jp/en/" target="_blank">
+                            User Interface Research Group
+                        </Link> - The University of Tokyo.
                     </BioSection>
-                    {/* Graduation date */}
-                    <BioSection>
-                        <BioYear>
-                            2015-2020
-                        </BioYear>
-                        Completed my Bachelor&apos;s Degree in Mechanical Engineering at Universidad EAFIT.
-                    </BioSection>
-                    {/* Current studies, MSc */}
-                    <BioSection>
-                        <BioYear>
-                            2020-2022
-                        </BioYear>
-                        Master&apos;s of Science in Engineering at Universidad EAFIT.
-                    </BioSection>
-                    {/* Graduation date */}
-                    <BioSection>
-                        <BioYear>
-                            2017-2022
-                        </BioYear>
-                        Researach assistant at {' '}
-                        <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
-                            CAD CAM CAE Laboratory
-                        </Link>, Universidad EAFIT.
-                    </BioSection>
-                    {/* Current studies, MSc */}
+                    {/*  Cohesiva */}
                     <BioSection>
                         <BioYear>
                             2020-2022
@@ -136,23 +110,64 @@ const Page = () => {
                             Manufactura Cohesiva S.A.S
                         </Link>.
                     </BioSection>
+                    {/* Research Assistant */}
                     <BioSection>
                         <BioYear>
-                            2022-present
+                            2017-2022
                         </BioYear>
-                        PhD student in Augmented Vision at {' '}
-                        <Link href="https://ar-ai.org/" target="_blank">
-                            ARAI - LISN
+                        Researach assistant at {' '}
+                        <Link href="http://cadcamcae.eafit.edu.co/" target="_blank">
+                            CAD CAM CAE Laboratory
+                        </Link> - Universidad EAFIT.
+                    </BioSection>
+                    {/* Internship, MSc */}
+                    <BioSection>
+                        <BioYear>
+                            2019-2019
+                        </BioYear>
+                        Research intern at the {' '}
+                        
+                        <Link href="https://mechanical.eng.unimelb.edu.au/research/fluid-mechanics/research/walter-bassett" target="_blank">
+                            Walter Bassett Aerodynamics Laboratory
+                        </Link> - The University of Melbourne.
+                    </BioSection>
+
+                    <Heading as="h3" variant="section-title">
+                        Education
+                    </Heading>
+                    {/* PhD current position */}
+                    <BioSection>
+                        <BioYear>
+                            2022-2026
+                        </BioYear>
+                        PhD in Computer Science at {' '}
+
+                        <Link href="https://www.universite-paris-saclay.fr/" target="_blank">
+                            Université Paris-Saclay
+                        </Link> {' '}.
+
+                    </BioSection>
+                    {/* Current studies, MSc */}
+                    <BioSection>
+                        <BioYear>
+                            2020-2022
+                        </BioYear>
+                        Master&apos;s of Science in Engineering at at {' '}
+                        
+                        <Link href="https://www.eafit.edu.co/en" target="_blank">
+                            Universidad EAFIT
                         </Link>.
                     </BioSection>
+                    {/* Studies BSc */}
                     <BioSection>
                         <BioYear>
-                            2025-2025
+                            2015-2020
                         </BioYear>
-                        Research Visit at  {' '}
-                        <Link href="https://www-ui.is.s.u-tokyo.ac.jp/en/" target="_blank">
-                            User Interface Research Group 
-                        </Link> - The University of Tokyo.
+                        Bachelor&apos;s Degree in Mechanical Engineering at {' '}
+                        
+                        <Link href="https://www.eafit.edu.co/en" target="_blank">
+                            Universidad EAFIT
+                        </Link>.
                     </BioSection>
                 </Section>
 
