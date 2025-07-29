@@ -17,18 +17,18 @@ const Work = () => {
                 Augmented Reality (AR) has grown from specialised uses to applications for the common public. 
                 One of these developments led to Augmented Vision (AV), which enhances vision beyond traditional methods 
                 like glasses or contact lenses. This review aims to compare and categorise AV systems according to the 
-                paradigms they implement to enhance the users' vision.
+                paradigms they implement to enhance the users&apos; vision.
                 Additionally, the review examines whether researchers conduct measurements and analysis on the human 
                 visual system (HVS) when evaluating their system. Such an overall view will help future researchers position 
-                their work on AV. By understanding AV systems' paradigms and approaches, researchers will be well-equipped to 
+                their work on AV. By understanding AV systems&apos; paradigms and approaches, researchers will be well-equipped to 
                 identify gaps, explore novel directions, and leverage existing advancements. 
                 <br/>
                 We searched Scopus, Web of Science, and PubMed databases for publications until February 26, 2025, exploring 
                 citations and references for the selected articles to avoid missing out on relevant articles. We then conducted 
-                a two-step screening process that involved LLM-assisted screening of the article's abstracts and an in-depth assessment 
+                a two-step screening process that involved LLM-assisted screening of the article&apos;s abstracts and an in-depth assessment 
                 of the article. This review follows the PRISMA statement, reducing bias risk. 
                 <br/>
-                We selected 113 of 469 articles, as they improved users' visual performance. We defined three main categories: 
+                We selected 113 of 469 articles, as they improved users&apos; visual performance. We defined three main categories: 
                 (1) adding light to the incoming light field, (2) modifying the incoming light field, and (3) intersecting approaches. 
                 We found three main application areas: (1) task-specific, (2) vision correction, and (3) visual perception
                  enhancement. The most typical application is task-specific. We identified a gap in the literature since 
