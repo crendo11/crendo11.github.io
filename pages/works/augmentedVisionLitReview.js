@@ -43,8 +43,8 @@ const Work = () => {
                     </ListItem>
 
                     <ListItem>
-                        <Meta>Open Access Version (comming soon)</Meta>
-                        <Link href="https://doi.org/10.1109/TVCG.2025.3587527" target="_blank">
+                        <Meta>Open Access Version</Meta>
+                        <Link href="https://hal.science/hal-05191952" target="_blank">
                             HAL<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
