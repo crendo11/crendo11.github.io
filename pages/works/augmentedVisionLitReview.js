@@ -58,7 +58,7 @@ const Work = () => {
                     <ListItem>
                         <Meta>Citation</Meta>
                         Cristian Rendon-Cardona, Marie-Anne Burcklen, Richard Legras, Christian Sandor.
-                        IEEE Transactions on Visualization and Computer Graphics, XX(XX), 1-18, July 2025.
+                        IEEE Transactions on Visualization and Computer Graphics, 31(10), 9484-9501, July 2025.
                         doi: {' '}  <Link href='https://doi.org/10.1109/TVCG.2025.3587527' target="_blank">
                             10.1109/TVCG.2025.3587527
                         </Link> {' '}
