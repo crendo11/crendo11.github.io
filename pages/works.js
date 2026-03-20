@@ -11,6 +11,7 @@ import thumbnailCloth from '../public/images/works/Clothing/manequin_scalar.png'
 import thumbnailBEM from '../public/images/works/BEM/BEM_mesh.png';
 import thumbnailPendulum from '../public/images/works/pendulum/pendulum_variables.png';
 import thumbnailAVSystems from '../public/images/works/AV_systems_review/AV_AR_venn_diagram.png';
+import thumbnailPhD from '../public/images/works/PhD_Thesis/model_3d_prototype.png';
 
 const Works = () => {
     return (
@@ -20,6 +21,11 @@ const Works = () => {
                     Works
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="phdThesis" title="Enhancing Human Performance Through Augmented Vision" thumbnail={thumbnailPhD}>
+                            PhD Thesis
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="augmentedVisionLitReview" title="Augmented Vision: Paradigms and Application" thumbnail={thumbnailAVSystems}>
                             Systematic literature review in Augmented Vision systems.

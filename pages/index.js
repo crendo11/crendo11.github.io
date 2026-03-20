@@ -17,14 +17,14 @@ const Page = () => {
         (<Layout>
             <Container maxW='container'>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a PhD student based in France
+                    Hello, I&apos;m a PhD in Computer Science based in France
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page.-title">
                             Cristian Rendon
                         </Heading>
-                        <p>PhD student in Augmented Vision (Researcher, Developer, Geek)</p>
+                        <p>PhD in Computer Science – Specialized in Optical Systems (Researcher, Developer, Geek)</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
                         <Image
@@ -46,18 +46,13 @@ const Page = () => {
                         About me
                     </Heading>
                     <Paragraph>
-                        I am a passionate MSc. Engineer with a minor in Computational
-                        Mechanics from Universidad EAFIT, Colombia. I have been working in
-                        Computer Graphics with a strong background in programming.
-                    </Paragraph>
-                    <Paragraph>
-                        Currently, I am pursuing a PhD in Augmented Vision at the {' '}
+                        I recently completed my PhD in Computer Science at the {' '}
                         <Link href="https://ar-ai.org/" target="_blank">
                             ARAI
                         </Link> group, part of the LISN laboratory from the {' '}
                         <Link href="https://www.cnrs.fr/en" target="_blank">
                             CNRS.
-                        </Link> I am working on the thesis &quot;Enhance Human Performance Through
+                        </Link> Where I worked on the thesis &quot;Enhance Human Performance Through
                         Augmented Vision&quot; under the supervision of Prof. Christian Sandor,
                         Prof. Richard Legras and Prof. Marie-Anne Burcklen.
                     </Paragraph>
