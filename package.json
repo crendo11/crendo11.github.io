@@ -1,6 +1,7 @@
 {
   "name": "crendo11.github.io",
   "version": "1.0.0",
+  "packageManager": "pnpm@11.5.3",
   "description": "Cristian Rendon web page",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
