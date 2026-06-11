@@ -17,14 +17,14 @@ const Page = () => {
         (<Layout>
             <Container maxW='container'>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'witeAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a PhD in Computer Science based in France
+                    Hello, I&apos;m an X-ray Optics Engineer based in France
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page.-title">
-                            Cristian Rendon
+                            Cristian Rendon, PhD
                         </Heading>
-                        <p>PhD in Computer Science – Specialized in Optical Systems (Researcher, Developer, Geek)</p>
+                        <p>PhD in Computer Science – Specialized in Design of Optical Systems (Researcher, Developer, Geek)</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
                         <Image
@@ -46,14 +46,22 @@ const Page = () => {
                         About me
                     </Heading>
                     <Paragraph>
+                        I am currently an X-ray Optics Design Engineer in the Optics Group at {' '}
+                        <Link href="https://www.synchrotron-soleil.fr/" target="_blank">
+                            Synchrotron SOLEIL
+                        </Link>, 
+                        where I work on the design, optimisation, and analysis of synchrotron beamlines optics.
+                    </Paragraph>
+                    <Paragraph>
                         I recently completed my PhD in Computer Science at the {' '}
                         <Link href="https://ar-ai.org/" target="_blank">
                             ARAI
                         </Link> group, part of the LISN laboratory from the {' '}
                         <Link href="https://www.cnrs.fr/en" target="_blank">
                             CNRS.
-                        </Link> Where I worked on the thesis &quot;Enhance Human Performance Through
-                        Augmented Vision&quot; under the supervision of Prof. Christian Sandor,
+                        </Link> Where I worked on the thesis &quot;<Link href="works/phdThesis" target="_blank">
+                            Enhancing Human Performance Through Augmented Vision
+                        </Link>&quot; under the supervision of Prof. Christian Sandor,
                         Prof. Richard Legras and Prof. Marie-Anne Burcklen.
                     </Paragraph>
                     <Paragraph>
@@ -85,6 +93,16 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Experience
                     </Heading>    
+                    {/* SOLEIL */}
+                    <BioSection>
+                        <BioYear>
+                            2026-present
+                        </BioYear>
+                        X-ray Optics Engineer at the Optics Group -{' '}
+                        <Link href="https://www.synchrotron-soleil.fr/" target="_blank">
+                            Synchrotron SOLEIL
+                        </Link>.
+                    </BioSection>
                     {/* Tokyo Research Visit */}
                     <BioSection>
                         <BioYear>
@@ -166,14 +184,14 @@ const Page = () => {
                     </BioSection>
                 </Section>
 
-                <Section delay={0.3}>
+                {/* <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
                         I love
                     </Heading>
                     <Paragraph>
                         Science, Games, Technology, Sports, Movies and Series
                     </Paragraph>
-                </Section>
+                </Section> */}
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title">
                         Find me on
